@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FranciscoIA — Agencia de Inteligencia Artificial & Automatizaciones</title>
+  <meta name="description" content="FranciscoIA es una agencia especializada en Inteligencia Artificial, creación de páginas web premium y automatizaciones de negocio. Transformamos tu empresa con tecnología de vanguardia." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="logo_white.png" alt="FranciscoIA" onerror="this.src='logo.png'" />
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#process">Proceso</a></li>
+        <li><a href="#why">¿Por qué nosotros?</a></li>
+        <li><a href="#testimonials">Clientes</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary">Empezar ahora →</a>
+        <button class="hamburger" id="hamburger" aria-label="Menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#services">Servicios</a>
+      <a href="#process">Proceso</a>
+      <a href="#why">¿Por qué nosotros?</a>
+      <a href="#testimonials">Clientes</a>
+      <a href="#contact">Contacto</a>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Innovación con Inteligencia Artificial
+        </div>
+
+        <h1 class="hero-title">
+          El futuro de tu negocio<br />
+          empieza con <span class="gradient">FranciscoIA</span>
+        </h1>
+
+        <p class="hero-desc">
+          Diseñamos soluciones de IA, páginas web de alto impacto y automatizaciones
+          que multiplican la productividad de tu empresa. Resultados reales, en tiempo récord.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" id="hero-cta">Agendar consulta gratuita →</a>
+          <a href="#services" class="btn btn-outline" id="hero-services">Ver servicios</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num" data-target="30" data-suffix="+">0+</span>
+            <span class="stat-label">Proyectos completados</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="100" data-suffix="%">0%</span>
+            <span class="stat-label">Satisfacción del cliente</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="3" data-suffix="x">0x</span>
+            <span class="stat-label">Más productividad promedio</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       SERVICES
+  ═══════════════════════════════════════ -->
+  <section id="services">
+    <div class="container">
+      <div class="center">
+        <span class="tag reveal">Lo que hacemos</span>
+        <h2 class="section-title reveal reveal-delay-1">Servicios diseñados para <span>escalar</span></h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Combinamos tecnología de punta con estrategia de negocio para
+          entregar resultados que importan.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon">🤖</div>
+          <h3>Inteligencia Artificial</h3>
+          <p>Transformamos tus datos y procesos en ventajas competitivas con soluciones de IA personalizadas.</p>
+          <ul>
+            <li>Chatbots y asistentes virtuales</li>
+            <li>Análisis predictivo</li>
+            <li>Automatización con IA generativa</li>
+            <li>Integración de modelos LLM</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">🌐</div>
+          <h3>Páginas Web Premium</h3>
+          <p>Diseñamos y desarrollamos sitios web de alto rendimiento que convierten visitantes en clientes.</p>
+          <ul>
+            <li>Landing pages de alta conversión</li>
+            <li>E-commerce y tiendas online</li>
+            <li>Diseño UX/UI personalizado</li>
+            <li>SEO técnico y performance</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">⚡</div>
+          <h3>Automatizaciones</h3>
+          <p>Eliminamos tareas repetitivas y conectamos tus herramientas para que tu equipo se enfoque en lo que importa.</p>
+          <ul>
+            <li>Automatización con Make & n8n</li>
+            <li>Integración de CRM y ERP</li>
+            <li>Flujos de trabajo inteligentes</li>
+            <li>Reportes automáticos</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       HOW IT WORKS
+  ═══════════════════════════════════════ -->
+  <section id="process">
+    <div class="container">
+      <div class="center">
+        <span class="tag reveal">Nuestro proceso</span>
+        <h2 class="section-title reveal reveal-delay-1">Simples pasos, <span>grandes resultados</span></h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Un proceso claro y transparente para llevar tu proyecto del concepto a la realidad.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card reveal">
+          <div class="step-num">01</div>
+          <h3>Descubrimiento</h3>
+          <p>Analizamos tu negocio, tus objetivos y tus desafíos en una consulta estratégica gratuita.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-1">
+          <div class="step-num">02</div>
+          <h3>Diseño & Desarrollo</h3>
+          <p>Construimos tu solución con las mejores tecnologías, iterando con tu feedback en cada etapa.</p>
+        </div>
+        <div class="step-card reveal reveal-delay-2">
+          <div class="step-num">03</div>
+          <h3>Lanzamiento & Soporte</h3>
+          <p>Desplegamos, monitoreamos y optimizamos tu solución. Siempre disponibles para escalar contigo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       WHY US
+  ═══════════════════════════════════════ -->
+  <section id="why">
+    <div class="container">
+      <span class="tag reveal">Nuestra ventaja</span>
+      <h2 class="section-title reveal reveal-delay-1">¿Por qué elegir <span>FranciscoIA</span>?</h2>
+      <p class="section-desc reveal reveal-delay-2">
+        No somos una agencia genérica. Somos especialistas en IA que
+        entienden tu negocio y hablan tu idioma.
+      </p>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon">🎯</div>
+          <div>
+            <h4>Enfoque en resultados</h4>
+            <p>Cada decisión de diseño o tecnología tiene un objetivo claro: maximizar el retorno de tu inversión.</p>
+          </div>
+        </div>
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-icon">🚀</div>
+          <div>
+            <h4>Entrega en tiempo récord</h4>
+            <p>Metodología ágil y procesos optimizados para entregar proyectos de calidad en plazos competitivos.</p>
+          </div>
+        </div>
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-icon">🔒</div>
+          <div>
+            <h4>Máxima calidad y seguridad</h4>
+            <p>Código limpio, escalable y seguro. Tus datos y los de tus clientes siempre protegidos.</p>
+          </div>
+        </div>
+        <div class="why-card reveal reveal-delay-3">
+          <div class="why-icon">🤝</div>
+          <div>
+            <h4>Acompañamiento continuo</h4>
+            <p>No desaparecemos después del lanzamiento. Somos tu socio tecnológico de largo plazo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       TESTIMONIALS
+  ═══════════════════════════════════════ -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="center">
+        <span class="tag reveal">Testimonios</span>
+        <h2 class="section-title reveal reveal-delay-1">Lo que dicen nuestros <span>clientes</span></h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Resultados reales de empresas que confiaron en FranciscoIA.
+        </p>
+      </div>
+
+      <div class="testi-grid">
+
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <div class="testi-quote">"</div>
+          <p>FranciscoIA transformó por completo nuestro proceso de atención al cliente. El chatbot con IA que implementaron redujo el tiempo de respuesta en un 80% y nuestras ventas crecieron 40% en el primer mes.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">CM</div>
+            <div>
+              <div class="testi-name">Carlos Mendez</div>
+              <div class="testi-role">CEO, TechNova Solutions</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="stars">★★★★★</div>
+          <div class="testi-quote">"</div>
+          <p>La landing page que nos hicieron convierte increíblemente bien. En menos de 2 semanas recuperamos la inversión. El equipo es profesional, rápido y muy creativo.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AL</div>
+            <div>
+              <div class="testi-name">Andrea López</div>
+              <div class="testi-role">Fundadora, Bloom Studio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="stars">★★★★★</div>
+          <div class="testi-quote">"</div>
+          <p>Las automatizaciones que implementaron nos ahorraron más de 20 horas semanales de trabajo manual. Ahora nuestro equipo se enfoca en lo que realmente genera valor.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MR</div>
+            <div>
+              <div class="testi-name">Martín Rodríguez</div>
+              <div class="testi-role">Director Operativo, LogiTrans</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CONTACT / CTA
+  ═══════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <span class="tag reveal">Hablemos</span>
+        <h2 class="section-title reveal reveal-delay-1">
+          ¿Listo para llevar tu<br />negocio al <span>siguiente nivel</span>?
+        </h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Agenda una consulta gratuita hoy mismo. Sin compromiso,
+          sin tecnicismos — solo soluciones reales para tu empresa.
+        </p>
+        <div class="contact-actions reveal reveal-delay-3">
+          <a href="https://wa.me/5491100000000?text=Hola%20FranciscoIA%2C%20quiero%20una%20consulta%20gratuita" 
+             target="_blank" rel="noopener" class="btn btn-whatsapp" id="whatsapp-cta">
+            💬 WhatsApp
+          </a>
+          <a href="mailto:hola@franciscoia.com" class="btn btn-primary" id="email-cta">
+            ✉️ Enviar email
+          </a>
+          <a href="#services" class="btn btn-outline" id="learn-more-cta">
+            Ver servicios
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-brand">
+          <img src="logo_white.png" alt="FranciscoIA" onerror="this.src='logo.png'" />
+          <p>Agencia de Inteligencia Artificial, páginas web premium y automatizaciones de negocio. Tu socio tecnológico de confianza.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Servicios</h5>
+          <ul>
+            <li><a href="#services">Inteligencia Artificial</a></li>
+            <li><a href="#services">Páginas Web</a></li>
+            <li><a href="#services">Automatizaciones</a></li>
+            <li><a href="#process">Cómo trabajamos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contacto</h5>
+          <ul>
+            <li><a href="https://wa.me/543515199173" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="mailto:Boggiofrancisco26@gmail.com">Boggiofrancisco26@gmail.com</a></li>
+            <li><a href="#contact">Consulta gratuita</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 <a href="#hero">FranciscoIA</a>. Todos los derechos reservados.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">Ig</a>
+          <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+          <a href="#" class="social-link" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
